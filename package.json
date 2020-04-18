@@ -12,8 +12,11 @@
     "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
+    "devNoServer": "webpack --d --watch",
+    "dev": "webpack-dev-server --content-base=src/public",
+    "build": "webpack -p",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+ 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
