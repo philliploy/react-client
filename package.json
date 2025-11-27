@@ -9,8 +9,8 @@
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "webpack-dev-server": "^3.10.3"
+    "react-scripts": "5.0.1",
+    "webpack-dev-server": "^5.2.2"
   },
   "scripts": {
     "devNoServer": "webpack --d --watch",
